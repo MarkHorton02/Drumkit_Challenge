@@ -24,7 +24,7 @@ buttons.forEach(button => {
 
 document.addEventListener('keydown', (event) => {
     const button = Array.from(buttons).find(btn => btn.dataset.key === event.key.toUpperCase())
-    if (button) {
+    if(button){
         playSound(button.dataset.sound)
        }
 })
