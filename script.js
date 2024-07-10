@@ -9,22 +9,21 @@ const sounds = {
     tink: new Audio('sounds/tink.wav'),
     tom: new Audio('sounds/tom.wav')
 }
-
 const playSound = (sound) => {
-    sounds[sound].currentTime = 0;
-    sounds[sound].play();
+    sounds[sound].currentTime = 0
+    sounds[sound].play()
 }
-
 const buttons = document.querySelectorAll('.drum');
 buttons.forEach(button => {
     button.addEventListener('click', () => {
         playSound(button.dataset.sound)
     })
 })
-
 document.addEventListener('keydown', (event) => {
-    const button = Array.from(buttons).find(btn => btn.dataset.key === event.key.toUpperCase())
+    const key = event.key.toUpperCase()
+    const button = document.querySelector(`.drum[data-key="${key}"]`)
     if(button){
-        playSound(button.dataset.sound)
-       }
+        const sound = button.getAttribute('data-sound')
+        playSound(sound)
+    }
 })

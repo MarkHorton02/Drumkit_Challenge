@@ -45,3 +45,9 @@ body{
 .labelSoundType{
     font-size: 30px;
 }
+.pageTitle{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
