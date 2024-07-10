@@ -18,7 +18,7 @@ body{
     justify-content: center;
 }
 .drum{
-    background-color: #444;
+    background-color: #4B0983;
     border: 3px double white;
     color: white;
     font-size: 20px;
@@ -28,9 +28,6 @@ body{
     justify-content: space-between;
     width: 130px;
     flex-direction: column;
-}
-.drum:hover{
-    background-color: #555;
 }
 .cadbury{
     display: flex;
@@ -47,11 +44,12 @@ body{
     font-size: 30px;
 }
 .pageTitle{
-    color: white;
+    color: #4B0983;
     display: flex;
     justify-content: center;
     margin: 0px;
     font-family: "biteChocolate";
+    border: 3px double white;
 }
 @font-face{
     font-family: "biteChocolate";
