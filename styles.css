@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 100%;
+    margin: 300px 0;
+    background-color: #222;
+    font-family: Arial, sans-serif;
+}
+.drumkit{
+    display: flex;
+    align-content: space-between;
+    padding: 40px;
+    width: 90%;
+    justify-content: space-around;
+}
+.drum{
+    background-color: #444;
+    border: 3px double white;
+    color: white;
+    font-size: 20px;
+    padding: 20px 5px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: space-between;
+    width: 130px;
+}
+.drum:hover{
+    background-color: #555;
+}
