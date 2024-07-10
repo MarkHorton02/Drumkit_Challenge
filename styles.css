@@ -44,12 +44,13 @@ body{
     font-size: 30px;
 }
 .pageTitle{
-    color: #4B0983;
+    color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 0px;
     font-family: "biteChocolate";
-    border: 3px double white;
+    background-color: #4B0983;
 }
 @font-face{
     font-family: "biteChocolate";
