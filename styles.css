@@ -41,6 +41,7 @@ body{
 .labelKeyType{
     font-size: 20px;
     margin: 20px 0;
+    font-family: "biteChocolate";
 }
 .labelSoundType{
     font-size: 30px;
@@ -50,4 +51,9 @@ body{
     display: flex;
     justify-content: center;
     margin: 0px;
+    font-family: "biteChocolate";
+}
+@font-face{
+    font-family: "biteChocolate";
+    src: url(./fonts/BiteChocolate-2RGl.ttf);
 }
