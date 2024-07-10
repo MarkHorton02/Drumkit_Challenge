@@ -6,6 +6,8 @@ body{
     margin: 300px 0;
     background-color: #222;
     font-family: Arial, sans-serif;
+    flex-direction: column;
+    background-color: #010001;
 }
 .drumkit{
     display: flex;
@@ -28,4 +30,10 @@ body{
 }
 .drum:hover{
     background-color: #555;
+}
+.cadbury{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin: 100px
 }
